@@ -5,14 +5,13 @@ import { Figure } from "react-bootstrap";
 
 export default function Electric() {
   return (
-    <div  id="elec" style={{ background: "ash" }}>
+    <div id="elec" style={{ background: "ash" }}>
+      <div class="header">Electric Shock</div>
 
       <div class="infopage">
-      <h1 style={{ fontWeight: "bold", padding: "15px" }}>Electric Shock</h1>
-
-      <Figure>
-        <Figure.Image width={400} height={240} alt="image" src={elec} />
-      </Figure>
+        <Figure>
+          <Figure.Image width={400} height={240} alt="image" src={elec} />
+        </Figure>
       </div>
 
       <p class="aboutpara">

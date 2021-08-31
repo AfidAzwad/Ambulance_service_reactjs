@@ -8,8 +8,9 @@ export default function Snakebite() {
   return (
     <div id="snake" style={{ background: "ash" }}>
       
+      <div class="header">Snake Bite</div>
+
       <div class="infopage">
-        <h1 style={{ fontWeight: "bold", padding: "15px" }}>Snake Bite</h1>
         <Figure>
           <Figure.Image width={400} height={240} alt="image" src={snake} />
         </Figure>

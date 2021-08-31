@@ -6,9 +6,9 @@ import { Figure } from "react-bootstrap";
 export default function Heartattack() {
   return (
     <div class="" id="heart" style={{ background: "ash" }}>
-      <div class="infopage">
-        <h1 style={{ fontWeight: "bold", padding: "15px" }}>Heart Attack</h1>
+      <div class="header">Heart Attack</div>
 
+      <div class="infopage">
         <Figure>
           <Figure.Image width={400} height={240} alt="image" src={heart} />
         </Figure>

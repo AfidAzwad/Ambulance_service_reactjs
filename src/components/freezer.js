@@ -6,24 +6,26 @@ import { Figure } from "react-bootstrap";
 export default function Freezer() {
   return (
     <div class="" id="freezer" style={{ background: "ash" }}>
-     <div class="infopage">
-      <h1 style={{ fontWeight: "bold", padding: "15px" }}>Freezer Ambulance</h1>
+      <div class="header">Freezer Ambulance</div>
 
-      <Figure>
-        <Figure.Image width={400} height={240} alt="image" src={freeze} />
-      </Figure>
+      <div class="infopage">
+        <Figure>
+          <Figure.Image width={400} height={240} alt="image" src={freeze} />
+        </Figure>
       </div>
 
-      <p class="aboutpara"
+      <p
+        class="aboutpara"
         style={{
           fontWeight: "bold",
-        }}>
-      Type : Deep Freeze <br />
-         Seat : 1 <br />
-     Base Fare : 3500 BDT <br />
-      Fitness : Good <br />
-          Items : Oxygen Cylinder, Nurse
-        </p>
+        }}
+      >
+        Type : Deep Freeze <br />
+        Seat : 1 <br />
+        Base Fare : 3500 BDT <br />
+        Fitness : Good <br />
+        Items : Oxygen Cylinder, Nurse
+      </p>
     </div>
   );
 }
