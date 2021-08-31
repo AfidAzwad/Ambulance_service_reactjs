@@ -13,14 +13,7 @@ export default function Heartattack() {
           <Figure.Image width={400} height={240} alt="image" src={heart} />
         </Figure>
       </div>
-      <p
-        style={{
-          fontWeight: "",
-          paddingTop: "10px",
-          marginLeft: "100px",
-          marginRight: "100px",
-        }}
-      >
+      <p class="aboutpara">
         Call 911 or emergency medical help if you think you might be having a
         heart attack. Someone having a heart attack may have any or all of the
         following: Chest pain, pressure or tightness, or a squeezing or aching
@@ -34,25 +27,13 @@ export default function Heartattack() {
         chest pain or pressure at all. Women tend to have more-vague symptoms,
         such as nausea or back or jaw pain. Some heart attacks strike suddenly,
         but many people have warning signs hours or days in advance.
-      </p>
-
-      <p
-        style={{
-          marginLeft: "80px",
-          marginRight: "80px",
-        }}
-      >
-        <b>What to do if you or someone else may be having a heart attack:</b>{" "}
-      </p>
-
-      <p
-        style={{
-          fontWeight: "",
-          paddingTop: "10px",
-          marginLeft: "100px",
-          marginRight: "100px",
-        }}
-      >
+        <br />
+        <br />
+        <b style={{ fontWeight: "bold" }}>
+          ??What to do if you or someone else may be having a heart attack:
+        </b>
+        <br />
+        <br />
         Call 911 or your local emergency number. Don't ignore the symptoms of a
         heart attack. If you can't get an ambulance or emergency vehicle to come
         to you, have a neighbor or a friend drive you to the nearest hospital.
