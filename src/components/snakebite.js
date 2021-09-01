@@ -2,14 +2,12 @@ import React from "react";
 import "./style.css";
 import snake from "../images/snake.jpg";
 import { Figure } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 export default function Snakebite() {
   return (
     <div id="snake" style={{ background: "ash" }}>
-      
       <div class="header">Snake Bite</div>
-
+      <br />
       <div class="infopage">
         <Figure>
           <Figure.Image width={400} height={240} alt="image" src={snake} />
@@ -73,7 +71,9 @@ export default function Snakebite() {
         </ul>
         <br />
         <b>Reference : </b>
-        <Link>https://www.webmd.com/first-aid/snakebite-treatment </Link>
+        <a href="https://www.webmd.com/first-aid/snakebite-treatment">
+          https://www.webmd.com/first-aid/snakebite-treatment{" "}
+        </a>
       </p>
     </div>
   );

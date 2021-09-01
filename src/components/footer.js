@@ -9,6 +9,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import emailjs from "emailjs-com";
 
 const FooterPage = () => {
+  
   function sendEmail(e) {
     e.preventDefault();
 

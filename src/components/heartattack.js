@@ -7,7 +7,7 @@ export default function Heartattack() {
   return (
     <div class="" id="heart" style={{ background: "ash" }}>
       <div class="header">Heart Attack</div>
-
+      <br />
       <div class="infopage">
         <Figure>
           <Figure.Image width={400} height={240} alt="image" src={heart} />
@@ -52,6 +52,12 @@ export default function Heartattack() {
         rapid rhythm — about 100 to 120 compressions a minute. If an automated
         external defibrillator (AED) is immediately available and the person is
         unconscious, follow the device instructions for using it.
+        <br />
+        <br />
+        <b>Reference : </b>
+        <a href="https://www.mayoclinic.org/first-aid/first-aid-heart-attack/basics/art-20056679">
+          https://www.mayoclinic.org/first-aid/first-aid-heart-attack/basics
+        </a>
       </p>
     </div>
   );

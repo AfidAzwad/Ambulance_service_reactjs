@@ -11,14 +11,25 @@ import FooterPage from "./footer.js";
 export default function Home() {
   return (
     <div id="home">
-      <Navbar collapseOnSelect fixed="top" expand="sm" className="navigation">
+      <Navbar
+        collapseOnSelect="true"
+        fixed="top"
+        expand="sm"
+        className="navigation pt-0 pb-0"
+      >
         <img class="img-fluid" alt="logo" src={logo} />
-        <b style={{ fontFamily: "Arial", fontSize: "22px" }}>
+        <b
+          style={{ fontFamily: "Arial", fontSize: "22px", marginRight: "auto" }}
+        >
           Ambulance Service
         </b>
-        <Navbar.Toggle arial-controls="responsive-navbar-nav" />
+        <Navbar.Toggle
+          style={{ marginRight: "10px" }}
+          arial-controls="responsive-navbar-nav"
+        />
+
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="px-4" style={{ marginLeft: "auto" }}>
+          <Nav className="px-5" style={{ marginLeft: "auto" }}>
             <Nav.Link>
               <Link
                 to="home"
@@ -27,8 +38,7 @@ export default function Home() {
                 className="navlink"
                 style={{ cursor: "pointer" }}
               >
-                {" "}
-                Home{" "}
+                Home
               </Link>
             </Nav.Link>
             <Nav.Link>
