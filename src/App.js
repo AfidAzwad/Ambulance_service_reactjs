@@ -9,9 +9,6 @@ import Freezer from "./components/freezer";
 import ICU from "./components/icu";
 import Heartattack from "./components/heartattack.js";
 import Snakebite from "./components/snakebite";
-import { Link } from "react-scroll";
-
-import { Navbar, Nav, Container } from "react-bootstrap";
 
 export default function App() {
   return (

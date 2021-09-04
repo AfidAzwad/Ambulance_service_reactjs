@@ -4,7 +4,7 @@ import nonac from "../images/nonac.png";
 import ac from "../images/ac.png";
 import freeze from "../images/freezer.png";
 import icu from "../images/icu.png";
-import { Col, Container, Figure, Row, Card } from "react-bootstrap";
+import { Col, Container, Row, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export default function Services() {
@@ -24,7 +24,7 @@ export default function Services() {
           <Col>
             <Card.Img className="img-fluid" alt="image" src={ac} />
             <Card.Title>
-              <Link to="/nonac">
+              <Link to="/ac">
                 <p style={{ fontSize: "15px" }}>AC Ambulance</p>
               </Link>
             </Card.Title>
@@ -32,7 +32,7 @@ export default function Services() {
           <Col>
             <Card.Img className="img-fluid" alt="image" src={icu} />
             <Card.Title>
-              <Link to="/nonac">
+              <Link to="/icuambulance">
                 <p style={{ fontSize: "15px" }}>ICU Ambulance</p>
               </Link>
             </Card.Title>
@@ -42,7 +42,7 @@ export default function Services() {
             <Card style={{ border: "none" }}>
               <Card.Img className="img-fluid" alt="image" src={freeze} />
               <Card.Title>
-                <Link to="/nonac">
+                <Link to="/freezer">
                   <p style={{ fontSize: "15px" }}>Freezer Ambulance</p>
                 </Link>
               </Card.Title>
