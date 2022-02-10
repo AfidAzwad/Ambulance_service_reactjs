@@ -17,6 +17,8 @@ Development background:
 				•	React Bootstrap – to get a stunning and responsive design.
 				
 				•	Email JS – to communicate with the visitors with mailing about their queries.
+
+				•	Sweetalert JS – to show alert when visitor contact with the service team.
 				
 				•	MDB React – to design the footer of the website.
 				
