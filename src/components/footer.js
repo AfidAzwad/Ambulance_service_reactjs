@@ -7,6 +7,7 @@ import { GoLocation } from "react-icons/go";
 import { FiPhone, FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { HiOutlineMail } from "react-icons/hi";
 import emailjs from "emailjs-com";
+import swal from 'sweetalert';
 
 const FooterPage = () => {
   
@@ -20,6 +21,7 @@ const FooterPage = () => {
         "user_ULAyuji8VrqywxuyFC9GG"
       ).then(
         (result) => {
+          success();
           console.log(result.text);
         },
         (error) => {
@@ -27,6 +29,14 @@ const FooterPage = () => {
         }
       );
     e.target.reset();
+  }
+  function success(){
+    swal({
+      title: "Thank You!",
+      text: "Message send successfully!",
+      icon: "success",
+      button: "Ok",
+    });
   }
 
   return (
