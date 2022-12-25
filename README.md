@@ -1,6 +1,6 @@
 # Ambulance-Service-Website-Reactjs
 
-Live at : https://ambulanceservice-az.herokuapp.com/
+Live at : https://ambulanceservice-az.netlify.app/
 
 
 Development background:
